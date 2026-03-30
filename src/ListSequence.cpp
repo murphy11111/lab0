@@ -1,5 +1,6 @@
 #include "../include/ListSequence.h"
 #include <stdexcept>
+#include <cstdint>
 
 template<typename T>
 typename ListSequence<T>::Node* ListSequence<T>::getNode(int index) const {
