@@ -1,5 +1,6 @@
 #include "../include/ArraySequence.h"
 #include <stdexcept>
+#include <cstdint>
 
 template<typename T>
 void ArraySequence<T>::resize() {
